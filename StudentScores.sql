@@ -1,4 +1,4 @@
-CREATE TABLE dbo.StudentScores
+ÔªøCREATE TABLE dbo.StudentScores
 (
 	StudentScoreNo		INT	IDENTITY(10, 1) NOT NULL
 	,StudentNo		INT	NOT NULL
@@ -15,7 +15,7 @@ ALTER TABLE dbo.StudentScores ADD
 	,CONSTRAINT [FK_StudentScores.ClassNo_Classes] FOREIGN KEY (ClassNo) REFERENCES dbo.Classes (ClassNo)
 GO
 
--- º’ø¿∞¯
+-- ÏÜêÏò§Í≥µ
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 10, 100);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 11, 88);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 12, 75);
@@ -24,7 +24,7 @@ INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 14, 95);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 15, 97);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 16, 76);
 
--- ∫£¡ˆ≈Õ
+-- Î≤†ÏßÄÌÑ∞
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 10, 85);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 11, 76);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 12, 99);
@@ -33,7 +33,7 @@ INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 14, 86);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 15, 72);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (11, 16, 95);
 
--- ««ƒ›∑Œ
+-- ÌîºÏΩúÎ°ú
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 10, 95);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 11, 82);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 12, 77);
@@ -42,7 +42,7 @@ INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 14, 45);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 15, 99);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (12, 16, 98);
 
--- º’ø¿π›
+-- ÏÜêÏò§Î∞ò
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 10, 100);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 11, 100);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 12, 100);
@@ -51,7 +51,7 @@ INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 14, 100);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 15, 100);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (13, 16, 100);
 
--- º’ø¿√µ
+-- ÏÜêÏò§Ï≤ú
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 10, 80);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 11, 70);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 12, 90);
@@ -60,7 +60,7 @@ INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 14, 50);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 15, 90);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (14, 16, 85);
 
--- ≈©∏Æ∏µ
+-- ÌÅ¨Î¶¨ÎßÅ
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (15, 10, 85);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (15, 11, 76);
 INSERT INTO dbo.StudentScores(StudentNo, ClassNo, Score) VALUES (15, 12, 95);

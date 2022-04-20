@@ -1,4 +1,4 @@
--- Students table »ı¼º
+ï»¿-- Students table ìƒì„±
 CREATE TABLE dbo.Students
 (
 	StudentNo	INT		IDENTITY(10, 1) NOT NULL
@@ -6,22 +6,22 @@ CREATE TABLE dbo.Students
 );
 GO
 
--- Primary key ¼³Á¤
+-- Primary key ì„¤ì •
 ALTER TABLE dbo.Students WITH NOCHECK ADD
 	CONSTRAINT PK_Students PRIMARY KEY CLUSTERED (StudentNo) ON [PRIMARY]
 GO
 
-INSERT INTO dbo.Students([Name]) VALUES (N'¼Õ¿À°ø');
-INSERT INTO dbo.Students([Name]) VALUES (N'º£ÁöÅÍ');
-INSERT INTO dbo.Students([Name]) VALUES (N'ÇÇÄİ·Î');
-INSERT INTO dbo.Students([Name]) VALUES (N'¼Õ¿À¹İ');
-INSERT INTO dbo.Students([Name]) VALUES (N'¼Õ¿ÀÃµ');
-INSERT INTO dbo.Students([Name]) VALUES (N'Å©¸®¸µ');
-INSERT INTO dbo.Students([Name]) VALUES (N'ÃµÁø¹İ');
-INSERT INTO dbo.Students([Name]) VALUES (N'º£ÁöÅÍ');
-INSERT INTO dbo.Students([Name]) VALUES (N'¿ÀÁöÅÍ');
-INSERT INTO dbo.Students([Name]) VALUES (N'Æ®·©Å©½º');
-INSERT INTO dbo.Students([Name]) VALUES (N'»çÅº');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì†ì˜¤ê³µ');
+INSERT INTO dbo.Students([Name]) VALUES (N'ë² ì§€í„°');
+INSERT INTO dbo.Students([Name]) VALUES (N'í”¼ì½œë¡œ');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì†ì˜¤ë°˜');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì†ì˜¤ì²œ');
+INSERT INTO dbo.Students([Name]) VALUES (N'í¬ë¦¬ë§');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì²œì§„ë°˜');
+INSERT INTO dbo.Students([Name]) VALUES (N'ë² ì§€í„°');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì˜¤ì§€í„°');
+INSERT INTO dbo.Students([Name]) VALUES (N'íŠ¸ë­í¬ìŠ¤');
+INSERT INTO dbo.Students([Name]) VALUES (N'ì‚¬íƒ„');
 
 GO
 

@@ -1,4 +1,4 @@
-CREATE TABLE dbo.Classes
+ÔªøCREATE TABLE dbo.Classes
 (
 	ClassNo		INT		IDENTITY(10, 1) NOT NULL
 	,[Name]		NVARCHAR(MAX)	NOT NULL
@@ -9,12 +9,12 @@ ALTER TABLE dbo.Classes WITH NOCHECK ADD
 	CONSTRAINT PK_Classes PRIMARY KEY CLUSTERED (ClassNo) ON [PRIMARY]
 GO
 
-INSERT INTO dbo.Classes([Name]) VALUES (N'ºˆ«–');
-INSERT INTO dbo.Classes([Name]) VALUES (N'øµæÓ');
-INSERT INTO dbo.Classes([Name]) VALUES (N'±πæÓ');
-INSERT INTO dbo.Classes([Name]) VALUES (N'ªÁ»∏πÆ»≠');
-INSERT INTO dbo.Classes([Name]) VALUES (N'¿±∏Æ');
-INSERT INTO dbo.Classes([Name]) VALUES (N'¡ˆ±∏∞˙«–');
-INSERT INTO dbo.Classes([Name]) VALUES (N'π∞∏Æ');
+INSERT INTO dbo.Classes([Name]) VALUES (N'ÏàòÌïô');
+INSERT INTO dbo.Classes([Name]) VALUES (N'ÏòÅÏñ¥');
+INSERT INTO dbo.Classes([Name]) VALUES (N'Íµ≠Ïñ¥');
+INSERT INTO dbo.Classes([Name]) VALUES (N'ÏÇ¨ÌöåÎ¨∏Ìôî');
+INSERT INTO dbo.Classes([Name]) VALUES (N'Ïú§Î¶¨');
+INSERT INTO dbo.Classes([Name]) VALUES (N'ÏßÄÍµ¨Í≥ºÌïô');
+INSERT INTO dbo.Classes([Name]) VALUES (N'Î¨ºÎ¶¨');
 
 SELECT * FROM dbo.Classes;
